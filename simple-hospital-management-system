@@ -1,0 +1,26 @@
+print("===== Hospital Management System =====")
+name = input("Enter Patient Name: ")
+age = input("Enter Patient Age: ")
+disease = input("Enter Disease: ")
+doctor = input("Enter Doctor Name: ")
+print("\n===== Patient Details =====")
+print("Patient Name :", name)
+print("Age          :", age)
+print("Disease      :", disease)
+print("Doctor       :", doctor)
+print("\nPatient registered successfully!")
+
+OUTPUT:
+===== Hospital Management System =====
+Enter Patient Name: vennela
+Enter Patient Age: 19
+Enter Disease: fever
+Enter Doctor Name: ramesh
+
+===== Patient Details =====
+Patient Name : vennela
+Age          : 19
+Disease      : fever
+Doctor       : ramesh
+
+Patient registered successfully!
